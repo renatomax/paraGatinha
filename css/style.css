@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+p {
+    padding: 15px;
+}
+
+p:nth-of-type(1) {
+    margin-bottom: 20px;
+}
+
+.container-inform {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 0px;
+}
+
+.container-inform:nth-of-type(1) {
+    background-image: url("imgs/img1.jfif");
+}
+
+.container-inform:nth-of-type(2) {
+    background-image: url("imgs/img2.jfif");
+}
+
+.container-inform:nth-of-type(3) {
+    background-image: url("imgs/img3.jfif");
+}
+
+.container-inform:nth-of-type(4) {
+    background-image: url("imgs/img4.jfif");
+}
+
+.container-inform h2 {
+    padding: 20px 30px;
+    font-size: 30px;
+    color: grey;
+    text-shadow: 2px 2px 3px white;background-color: rgba(0, 0, 0, 0.425);
+}
+
+.container-inform h3 {
+    padding: 20px 30px;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 3px white;background-color: rgba(0, 0, 0, 0.425);
+}
+
+.container-inform p {
+    background-color: rgba(0, 0, 0, 0.425);
+    color: whitesmoke;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-shadow: 0px 0px 3px white;
+}
+
+.container-inform button {
+    margin: 20px;
+    border: 1px solid black;background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+    text-shadow: 2px 2px 3px white;
+}
+
+.sai-fade {
+    transform: translateX(-50px);
+    opacity: .4;
+}
+
+.elselec {
+    transition: .3s, transform 2s;
+}
